@@ -12,3 +12,12 @@
     margin-right: 1rem;
     width: 3rem;
 }
+
+@media (max-width: 576px) {
+    .page-bar {
+        font-size: 1rem;
+    }
+    .page-bar > img {
+        width: 2.5rem;
+    }
+}
