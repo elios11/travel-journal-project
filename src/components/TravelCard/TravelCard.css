@@ -1,0 +1,45 @@
+p {
+    margin: 0;
+}
+
+.travel-card {
+    display: flex;
+    padding: 2rem;;
+}
+
+.travel-card--img {
+    width: 15rem;
+    height: 20rem;
+    object-fit: cover;
+    left: 40px;
+    top: 100px;
+    border-radius: 5px;
+}
+
+.travel-card--body {
+    margin: 2rem;
+}
+
+.travel-card--location {
+    display: flex;
+    align-items: center;
+}
+
+.travel-card--location > img {
+    width: 1rem;
+}
+
+.travel-card--location > p {
+    margin-left: 1rem;
+    letter-spacing: 0.17em;
+}
+
+.travel-card--location > a {
+    margin-left: 1rem;
+    color: #918E9B;
+}
+
+.travel-card--dates {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
