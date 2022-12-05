@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "netlify": "^13.0.2",
+    "netlify-cli": "^12.2.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
