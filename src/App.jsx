@@ -4,9 +4,8 @@ import travelsData from "./travelData"
 
 export default function App() {
     const travelCards = travelsData.map((travelData, index) => {
-        return  <div>
+        return  <div key={travelData.id}>
                     <TravelCard
-                        key={travelData.id}
                         {...travelData}
                     />
                     {index < travelsData.length - 1 && <hr className="separator"></hr>}
